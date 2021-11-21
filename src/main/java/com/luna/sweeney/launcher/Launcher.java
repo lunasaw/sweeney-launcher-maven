@@ -234,7 +234,7 @@ public class Launcher {
             public void mouseDown(MouseEvent e) {
                 if (java.awt.Desktop.isDesktopSupported()) {
                     URI uri = URI.create(
-                            "https://wed.iteknical.com/fusion-user/register?site=wednesday&redirectURL=https%3A%2F%2Fwed"
+                            "http://localhost:8001/fusion-user/register?site=wednesday&redirectURL=https%3A%2F%2Fwed"
                                     + ".luna.com%2Fwednesday%2Fmy%2Findex");
                     // 判断系统桌面是否支持要执行的功能
                     if (Desktop.getDesktop().isSupported(Desktop.Action.BROWSE)) {
